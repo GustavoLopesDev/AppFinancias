@@ -23,12 +23,12 @@ export default function SignIn() {
         <Logo source={require('../../assets/Logo.png')} />
 
         <AreaInput>
-          <Input placeholder="seu e-mail" />
+          <Input placeholder="Seu e-mail" />
         </AreaInput>
         <AreaInput>
-          <Input placeholder="senha" />
+          <Input placeholder="Senha" secureTextEntry={true} />
         </AreaInput>
-        <SubmitButton>
+        <SubmitButton activeOpacity={0.8}>
           <SubmitText>Acessar</SubmitText>
         </SubmitButton>
 
