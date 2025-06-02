@@ -83,11 +83,14 @@ Abra o Android Studio e inicie um emulador Android.
 
 Verifique se o dispositivo está conectado corretamente:
 
-````bash
+```bash
 npx react-native doctor
+```
+
 ---
 
 ## ▶️ Executando o app
+
 Com emulador Android ativo:
 
 Com emulador Android ativo:
@@ -96,14 +99,20 @@ npx react-native run-android
 Se necessário, inicie o Metro bundler separadamente:
 npx react-native start
 
-## ▶️ Executando o app
+---
+
+## 🧰 Testando APIs e Banco
+
 Teste requisições com o Insomnia
 
 Visualize o banco de dados local com o Beekeeper Studio (SQLite)
+
+---
 
 ### 📥 Clonando o projeto
 
 ```bash
 git clone https://github.com/GustavoLopesDev/AppFinancias.git
 cd AppFinancias
-````
+
+```
